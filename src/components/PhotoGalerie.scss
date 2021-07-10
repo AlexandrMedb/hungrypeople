@@ -1,0 +1,16 @@
+$blockWidth: 15%;
+$blockHeight: calc(100px+100px);
+
+.PhotoGalerie {
+  display: flex;
+
+  &__photo {
+    height: 200px;
+    width: $blockWidth;
+    background-color: aqua;
+
+    &_bg1 {
+      background-color: bluedy;
+    }
+  }
+}
