@@ -1,0 +1,44 @@
+@import "../styles/vars.scss";
+@import "../styles/mixins.scss";
+
+.PrivetIvents {
+  background-blend-mode: multiply;
+  background-image: url(../img/specialtysbg.png);
+  background-color: rgba(0, 0, 0, 0.6);
+  // background-size: contain;
+  h3 {
+    // font-family: Open Sans;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding: 43px 0;
+
+    color: #ffffff;
+  }
+
+  &__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @include title(#ffffff);
+      p {
+        max-width: 475px;
+        margin-top: -25px;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+
+        color: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+}

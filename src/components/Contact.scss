@@ -1,0 +1,60 @@
+@import "../styles/vars.scss";
+@import "../styles/mixins.scss";
+
+.contact_wraper {
+  margin-bottom: 90px;
+  @include title();
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  form {
+    input {
+      @include inputField;
+      // display: block;
+    }
+    textarea {
+      resize: none;
+      grid-column: span 3;
+      @include inputField;
+    }
+
+    .contact__formBottom {
+      grid-column: 1/4;
+      display: flex;
+      justify-content: space-between;
+      &_left {
+        width: 50%;
+
+        display: flex;
+        flex-wrap: wrap;
+        span {
+          display: block;
+          padding: 20px 0;
+          padding-right: 20px;
+        }
+
+        svg {
+          height: 14px;
+          padding-right: 5px;
+          path {
+            fill: $color_gold;
+          }
+        }
+      }
+      button {
+        width: 50%;
+        background: $color_gold;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 20px;
+      }
+    }
+  }
+}

@@ -1,19 +1,27 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 // import { useRoutes } from "./routes";
 
 // import { Navbar } from "./components/navBar/navBar";
+
+import { PrivetIvents } from "./components/PrivetIvents";
 import { PhotoGalerie } from "./components/PhotoGalerie";
+import { Contact } from "./components/Contact";
 import { Map } from "./components/Map";
 import { Footer } from "./components/footer";
 
 function App() {
   return (
-    <main>
-      <PhotoGalerie />
-      <Map />
+    <div className="mainWrap">
+      <header>sa</header>
+      <main>
+        <PrivetIvents />
+        <PhotoGalerie />
+        <Contact />
+        <Map />
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
 export default App;

@@ -1,0 +1,59 @@
+@mixin title($color: #000000) {
+  .title {
+    h2 {
+      font-family: Banny;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: $color;
+      &::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 5px;
+        box-sizing: border-box;
+
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        background: $color_gold;
+        border: 1px solid $color_gold;
+        border-radius: 50px;
+      }
+    }
+
+    p {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 28px;
+      /* or 156% */
+
+      text-align: center;
+
+      margin: 0 auto;
+
+      color: $color;
+
+      width: 475px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@mixin inputField {
+  background: #e5e5e5;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px;
+
+  &::placeholder {
+    color: rgba(51, 51, 51, 0.5);
+  }
+}
