@@ -3,6 +3,7 @@ import "./App.scss";
 // import { useRoutes } from "./routes";
 
 // import { Navbar } from "./components/navBar/navBar";
+import { Header } from "./components/Header";
 import { AboutUs } from "./components/AboutUs";
 import { Specialites } from "./components/Specialites";
 import { BookTable } from "./components/BookTable";
@@ -17,7 +18,7 @@ import { Footer } from "./components/footer";
 function App() {
   return (
     <div className="mainWrap">
-      <header>sa</header>
+      <Header></Header>
       <main>
         <AboutUs></AboutUs>
         <OurTeam></OurTeam>

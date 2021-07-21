@@ -7,6 +7,7 @@ $imgBg: url(../img//sectionImg/bookTableWatch.png);
   padding-top: 100px;
   @include contentLeft($imgBg);
   padding-bottom: 100px;
+  @include title;
 
   form {
     display: grid;
@@ -15,8 +16,20 @@ $imgBg: url(../img//sectionImg/bookTableWatch.png);
     input {
       display: block;
       @include inputField;
-      max-width: 277px;
-      width: 100%;
+    }
+
+    button {
+      grid-column: 1/3;
+
+      background: $color_gold;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 20px;
+      box-sizing: border-box;
     }
   }
 }

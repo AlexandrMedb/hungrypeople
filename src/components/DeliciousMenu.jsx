@@ -20,104 +20,101 @@ export const DeliciousMenu = () => {
         <li>BEER</li>
         <li>DRINKS</li>
       </ul>
-      <div className="deliciousMenu__main">
-        <ul>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-          <li>
-            <span>PIZZA QUATRO STAGIONI . . . . </span>
-            <span> 55,68 USD</span>
-            <span>Integer ullamcorper neque eu purus euismod</span>{" "}
-          </li>
-        </ul>
-      </div>
+
+      <ul className="deliciousMenu__main">
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+        <li>
+          <span>PIZZA QUATRO STAGIONI . . . . </span>
+          <span> 55,68 USD</span>
+          <span>Integer ullamcorper neque eu purus euismod</span>{" "}
+        </li>
+      </ul>
     </section>
   );
 };

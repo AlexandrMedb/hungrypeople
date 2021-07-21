@@ -1,0 +1,35 @@
+.header {
+  padding: 0 80px;
+  width: 100%;
+  color: #fff;
+  a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    // display: flex;
+    // align-items: center;
+    // text-align: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  background: url(../img/specialtysbg.png);
+  // width: 1440px;
+  ul {
+    display: flex;
+    list-style: none;
+
+    justify-content: space-between;
+  }
+  &__main {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+    }
+  }
+}
