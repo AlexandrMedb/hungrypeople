@@ -1,0 +1,22 @@
+@import "../styles/vars.scss";
+@import "../styles/mixins.scss";
+
+$imgBg: url(../img//sectionImg/bookTableWatch.png);
+
+.bookTable {
+  padding-top: 100px;
+  @include contentLeft($imgBg);
+  padding-bottom: 100px;
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    input {
+      display: block;
+      @include inputField;
+      max-width: 277px;
+      width: 100%;
+    }
+  }
+}

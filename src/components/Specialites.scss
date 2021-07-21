@@ -2,9 +2,8 @@
 @import "../styles/mixins.scss";
 
 $mainBg: url(../img/specialtysbg.png);
-$imgBg: url(../img/sectionImg/chef.png);
+$imgBg: url(../img/sectionImg/chcolatePancakes.png);
 
-.ourTeam {
+.specialites {
   @include contentRight($imgBg, $mainBg);
-  padding-bottom: 100px;
 }

@@ -1,18 +1,14 @@
 import React from "react";
-import "./OurTeam.scss";
+import "./AboutUs.scss";
 
-export const OurTeam = () => {
+export const AboutUs = () => {
   return (
     <section className="container ">
-      <div className="ourTeam">
-        <h3>OUR TEAM</h3>
-        <div className=" ourTeam__main">
-          <div className="left">
-            <div className="square"></div>
-          </div>
+      <div className="aboutUS">
+        <div className=" aboutUS__main">
           <div className="right">
             <div className="title">
-              <h2>MASTER CHEF</h2>
+              <h2>about us</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
                 velit maximus, molestie est a, tempor magna.
@@ -25,6 +21,10 @@ export const OurTeam = () => {
               quam nec sem. Mauris tincidunt feugiat diam convallis pharetra.
               Nulla facilisis semper laoreet.
             </p>
+          </div>
+          <div className="left">
+            <div></div>
+            <div className="square"></div>
           </div>
         </div>
       </div>

@@ -117,3 +117,115 @@
     transform: translate(125px);
   }
 }
+
+@mixin contentRight($imgBg, $mainBg: #fff) {
+  max-width: 1440px;
+  background-blend-mode: multiply;
+  background: $mainBg;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding: 43px 0;
+
+    color: #ffffff;
+  }
+
+  &__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+
+    .left {
+      background-image: $imgBg;
+
+      @include squreImg;
+      @include squreImg_left;
+    }
+
+    .right {
+      @include title(#fff);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        max-width: 475px;
+        margin-top: -28px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+  &__footer {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 44px;
+  }
+}
+
+@mixin contentLeft($imgBg, $mainBg: #fff) {
+  max-width: 1440px;
+  background-blend-mode: multiply;
+  background: $mainBg;
+
+  // background-color: rgba(0, 0, 0, 0.6);
+
+  h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding: 43px 0;
+
+    color: #ffffff;
+  }
+
+  &__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+
+    .left {
+      background-image: $imgBg;
+
+      @include squreImg;
+      filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
+      @include squreImg_right;
+    }
+
+    .right {
+      @include title();
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        max-width: 475px;
+        margin-top: -28px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  }
+  &__footer {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 44px;
+  }
+}
