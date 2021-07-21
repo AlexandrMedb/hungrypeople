@@ -12,11 +12,11 @@ export const PrivetIvents = () => {
             <p>weddings</p>
           </div>
           <div className="right">
-            <p>weddings</p>
+            <p>corporate pzrties</p>
             <div className="square"></div>
           </div>
         </div>
-        <p>
+        <p className="PrivetIvents__footer">
           For private events please call: +40 729 131 637/+40 726 458 782 or use
           the contact form.
         </p>

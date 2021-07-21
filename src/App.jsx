@@ -3,7 +3,8 @@ import "./App.scss";
 // import { useRoutes } from "./routes";
 
 // import { Navbar } from "./components/navBar/navBar";
-
+import { OurTeam } from "./components/OurTeam";
+import { DeliciousMenu } from "./components/DeliciousMenu";
 import { PrivetIvents } from "./components/PrivetIvents";
 import { PhotoGalerie } from "./components/PhotoGalerie";
 import { Contact } from "./components/Contact";
@@ -15,6 +16,8 @@ function App() {
     <div className="mainWrap">
       <header>sa</header>
       <main>
+        <OurTeam></OurTeam>
+        <DeliciousMenu />
         <PrivetIvents />
         <PhotoGalerie />
         <Contact />

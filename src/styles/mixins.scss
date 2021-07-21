@@ -57,3 +57,63 @@
     color: rgba(51, 51, 51, 0.5);
   }
 }
+
+@mixin squreImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 475px;
+  width: 100%;
+  height: 475px;
+  // height: 100%;
+
+  filter: drop-shadow(0px 0px 50px #000000);
+  p {
+    max-height: 475px;
+    height: 100%;
+    max-width: 80px;
+    width: 100%;
+
+    background-color: #000;
+    color: #ffffff;
+    // transform: rotate(180deg);
+
+    font-family: Banny;
+    font-size: 24px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+  }
+  .square {
+    box-sizing: border-box;
+    max-height: 250px;
+    height: 100%;
+    max-width: 250px;
+    width: 100%;
+
+    content: "sddsd";
+    border: 20px solid $color_gold;
+  }
+}
+
+@mixin squreImg_left {
+  justify-self: right;
+
+  .square {
+    transform: translate(-125px);
+  }
+}
+
+@mixin squreImg_right {
+  p {
+    transform: rotate(180deg);
+  }
+  .square {
+    transform: translate(125px);
+  }
+}

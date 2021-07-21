@@ -1,7 +1,7 @@
 @import "../styles/vars.scss";
 @import "../styles/mixins.scss";
 
-.PrivetIvents {
+.ourTeam {
   max-width: 1440px;
   background-blend-mode: multiply;
   background-image: url(../img/specialtysbg.png);
@@ -26,18 +26,36 @@
     grid-gap: 80px;
 
     .left {
-      background-image: url(../img/sectionImg/rings.png);
+      background-image: url(../img/sectionImg/chcolatePancakes.png);
       @include squreImg;
       @include squreImg_left;
     }
 
     .right {
-      background-image: url(../img/sectionImg/Corparate.png);
-      @include squreImg;
-      @include squreImg_right;
+      @include title(#fff);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        max-width: 475px;
+        margin-top: -28px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.9);
+      }
     }
   }
-  .PrivetIvents__footer {
+  &__footer {
     // font-family: Open Sans;
     // font-style: normal;
     // font-weight: normal;
