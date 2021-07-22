@@ -28,7 +28,7 @@ function App() {
         <PrivetIvents />
         <PhotoGalerie />
         <Contact />
-        {/* <Map /> */}
+        <Map />
       </main>
       <Footer />
     </div>
