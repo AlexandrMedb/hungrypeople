@@ -3,7 +3,7 @@ import "./App.scss";
 // import { useRoutes } from "./routes";
 
 // import { Navbar } from "./components/navBar/navBar";
-import { Header } from "./components/Header";
+import { Header } from "./components/header";
 import { AboutUs } from "./components/AboutUs";
 import { Specialites } from "./components/Specialites";
 import { BookTable } from "./components/BookTable";
